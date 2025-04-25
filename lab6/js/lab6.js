@@ -3,7 +3,7 @@
 // Date: 4/25/25
 
 // Define Variables
-myTransport = ["Car", " Bus", " Bike"]
+myTransport = ["Car", " Bus", " Bike"];
 
 // Object for my main ride
 myMainRide = {
