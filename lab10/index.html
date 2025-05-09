@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 10 - JavaScript for the Web</title>
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab10.css">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+	<script src="js/lab.js" DEFER></script>
+</head>
+<body>
+	<main id="content">
+		<section>
+			<h1>Lab 10 - JavaScript for the Web</h1>
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<p> The challenge of this lab was to experiment with DOM manipulation. With the main goal of this
+						lab being to create a button that, when clicked, generated random "conversation". In this case 
+						we used a little bit of the "Lorem Ipsum" paragraph to generate the random conversation.
+					</p>
+				</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p>One of the problems we ran into with this lab was getting the button to actually
+						work when clicked. In the beginning, we found that when clicking it, nothing happened.
+						That's when we found out that we hadn't actually put our event listener callback and output appendage
+						INSIDE the clicker button function. In the instructions for the lab it looks like the function just ends,
+						but steps 4 and 5 actually needed to be put inside the function made in step 3.
+					</p> 
+			</div>
+
+			<div class="minor-section">
+					<h2>Reflection</h2>
+					<p> We are happy with how this lab turned out. While we ran into a little hiccup with getting the button to
+						work, we managed to figure it out in the end by placing the right things inside the clicker function.
+						We were also able to do one half of Task X, we found that the user input section was a bit too complicated.
+						However, we were able to make the text generate side to side like a real text conversation. We even styled 
+						the text too!
+					</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Results</h2>
+					<p></p>
+				<div id ="output"></div>
+				<button id="make-convo">Say Something</button>
+
+			</div>
+		</section>
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+		</nav>
+	</main>
+</body>
+</html>
