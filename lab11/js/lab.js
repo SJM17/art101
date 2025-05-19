@@ -3,6 +3,7 @@
 // Author: Sophie Morris
 // Date: 5/14/25
 
+//credits to deepseek
 function anagram(inputString){
 const arr = inputString.split('');
     for (let i = arr.length - 1; i > 0; i--) {
